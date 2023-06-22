@@ -80,5 +80,8 @@ FROM Player
 GROUP BY DESIGNATION, AFFECTED_FROM
 HAVING COUNT(*) > 1;
 ```
+# Output:
+![image](https://github.com/SOMEASVAR/MYSQL-05/assets/93434149/cc78d49d-3716-4bbd-8a7d-8d92670bc167)
+
 # Result:
 Therefore we have successfully created a SQL query to fetch duplicate records having matching data in some fields of a table.
